@@ -68,3 +68,7 @@ fnc sum(x, y) {
 } 
 var s = sum(1, 4);
 ```
+
+## References
+- https://www.sigbus.info/compilerbook
+- https://github.com/rui314/chibicc
