@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 type NodeType int
 
 const (
@@ -359,7 +355,6 @@ func (ctx *ParserContext) expect(str string) {
 		ctx.currentToken = token.next
 		return
 	}
-	fmt.Println(str)
 	panic("expected token")
 }
 
