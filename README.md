@@ -35,7 +35,7 @@ Only Interger Type is implemented.
 
 ```
 var value = 10;
-valeu = 1;
+value = 1;
 ```
 
 ### Control
